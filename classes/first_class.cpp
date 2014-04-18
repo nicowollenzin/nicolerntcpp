@@ -45,7 +45,7 @@ class Rectangle {
   public:
     Rectangle ();
     Rectangle (int,int);
-    int area (void) {return (width*height);}
+    int area (void);
 };
 
 // Constructors
@@ -60,6 +60,9 @@ Rectangle::Rectangle (int a, int b) {
   height = b;
 }
 // End
+
+int Rectangle::area (void) {return (width*height);}
+
 
 int main () {
   Rectangle rect (3,4);
