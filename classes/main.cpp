@@ -34,21 +34,17 @@
  *
  * @section DESCRIPTION
  *
- * first class
+ * main Routine for car - rectangle program
  */
-
-#include <iostream>
 #include "first_class.h"
+#include "second_class.h"
+#include <iostream>
+
 using namespace std;
 
-// Constructors
-
-Circle::Circle(double a) {
-  radius = a;
-}
-// End
-
-double Circle::area() {
-  cout << "My Radius is: " << radius << endl;
-  return radius*radius*3.14159265;
+int main () {
+  double diameter = 23.3;
+  Car brumm(diameter,4);
+  cout << "Car Max Speed: " << brumm.max_speed() << endl;
+  return 0;
 }

@@ -34,21 +34,19 @@
  *
  * @section DESCRIPTION
  *
- * first class
+ * Car Class file
  */
 
-#include <iostream>
+#include "second_class.h"
 #include "first_class.h"
-using namespace std;
 
-// Constructors
-
-Circle::Circle(double a) {
-  radius = a;
+Car::Car (double a, int b) {
+  wheel_diameter = a;
+  seats = b;
 }
-// End
 
-double Circle::area() {
-  cout << "My Radius is: " << radius << endl;
-  return radius*radius*3.14159265;
+int Car::max_speed (void) {
+  Circle circ(wheel_diameter/2);
+  return seats * circ.area(); 
 }
+

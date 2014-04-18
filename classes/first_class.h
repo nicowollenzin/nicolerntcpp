@@ -34,21 +34,17 @@
  *
  * @section DESCRIPTION
  *
- * first class
+ * Header File for first_class
  */
 
-#include <iostream>
-#include "first_class.h"
-using namespace std;
+#ifndef CIRCLE_H
+#define CIRCLE_H
 
-// Constructors
+class Circle {
+    double radius;
+  public:
+    Circle(double r);
+    double area();
+};
 
-Circle::Circle(double a) {
-  radius = a;
-}
-// End
-
-double Circle::area() {
-  cout << "My Radius is: " << radius << endl;
-  return radius*radius*3.14159265;
-}
+#endif

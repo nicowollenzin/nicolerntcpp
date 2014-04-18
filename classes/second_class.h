@@ -34,21 +34,19 @@
  *
  * @section DESCRIPTION
  *
- * first class
+ * Header File for second_class
  */
 
-#include <iostream>
-#include "first_class.h"
-using namespace std;
+#ifndef CAR_H
+#define CAR_H
 
-// Constructors
+class Car {
+    double wheel_diameter;
+    int  seats;
+  public:
+    Car ();
+    Car (double,int);
+    int max_speed (void);
+};
 
-Circle::Circle(double a) {
-  radius = a;
-}
-// End
-
-double Circle::area() {
-  cout << "My Radius is: " << radius << endl;
-  return radius*radius*3.14159265;
-}
+#endif
