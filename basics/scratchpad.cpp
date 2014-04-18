@@ -49,11 +49,17 @@ int main ()
   a=(b=5, cout << b*2 << endl, c=3, c*b);
 
   cout << a << '\n';
-*/
 
   string mystr ("1204");
   int myint;
   stringstream(mystr) >> myint;
   cout << myint;
+*/
+  
+  int bla[5] = {1,2,3,4,5};
+
+  for (int b: bla) {
+   cout << b << endl;
+  }
 }
 
