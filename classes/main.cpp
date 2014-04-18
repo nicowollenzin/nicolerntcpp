@@ -36,7 +36,6 @@
  *
  * main Routine for car - rectangle program
  */
-#include "first_class.h"
 #include "second_class.h"
 #include <iostream>
 
