@@ -34,11 +34,18 @@
  *
  * @section DESCRIPTION
  *
- * Hello World - wuhu
+ * I want to try out something.
  */
 
 #include <iostream>
+using namespace std;
 
-int main() {
-  std::cout << "Hello World!\n";
+int main ()
+{
+  int a,b,c;
+
+  a=(b=5, b*2);
+
+  cout << a << '\n';
 }
+

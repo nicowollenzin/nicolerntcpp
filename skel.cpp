@@ -1,6 +1,6 @@
 /**
  * @file
- * @author Nico Wollenzin <nico@wollenzin>
+ * @author Nico Wollenzin <nico@wollenzin.de>
  * @version 1.0
  *
  * @section LICENSE

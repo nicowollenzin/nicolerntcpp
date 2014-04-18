@@ -34,11 +34,8 @@
  *
  * @section DESCRIPTION
  *
- * Hello World - wuhu
+ * Input Output
  */
 
-#include <iostream>
 
-int main() {
-  std::cout << "Hello World!\n";
-}
+

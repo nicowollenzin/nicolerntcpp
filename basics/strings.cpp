@@ -34,11 +34,17 @@
  *
  * @section DESCRIPTION
  *
- * Hello World - wuhu
+ * Simple String output
  */
 
 #include <iostream>
+#include <string>
+using namespace std;
 
-int main() {
-  std::cout << "Hello World!\n";
+int main ()
+{
+  string mystring;
+  mystring = "This is a string";
+  cout << mystring << endl;
+  return 0;
 }
