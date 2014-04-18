@@ -38,14 +38,22 @@
  */
 
 #include <iostream>
+#include <string>
+#include <sstream>
 using namespace std;
 
 int main ()
 {
-  int a,b,c;
+ /** int a,b,c;
 
-  a=(b=5, b*2);
+  a=(b=5, cout << b*2 << endl, c=3, c*b);
 
   cout << a << '\n';
+*/
+
+  string mystr ("1204");
+  int myint;
+  stringstream(mystr) >> myint;
+  cout << myint;
 }
 
